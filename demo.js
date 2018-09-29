@@ -5,6 +5,7 @@ var oExp = new exp();
 oExp.use('/abcd',(req,res,next) => {
     next();
     res.send('hi');
+    
 
 });
 
